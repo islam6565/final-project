@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navi{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  font-family: "Lobster", sans-serif;
+  font-size: 24px;
+}
+.navi img{
+
+}
+.navi ul{
+  display: flex;
+  justify-content: space-around;
+  width:418px;
+  list-style: none;
+  align-items: center;
+  height: 41px;
+  margin-top: 20px;
+}
+
+.navi svg{
+  width:20px
+}
+.navi .icons{
+  display: flex;
+  justify-content: space-around;
+  width:9%
+}
+
+.navi a{
+  text-decoration: none;
+}
+.navi a:hover{
+  color: orange;
+}
+.navi svg:hover{
+  fill:orange
+}

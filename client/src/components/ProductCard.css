@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+.cardd{
+  width:250px;
+  height: 390px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+
+  flex-direction: column;
+  margin:20px;
+  box-shadow: 0px 4px 230px 8px rgba(0,0,0,0.06);
+  -webkit-box-shadow: 0px 4px 230px 8px rgba(0,0,0,0.06);
+  -moz-box-shadow: 0px 4px 230px 8px rgba(0,0,0,0.06);
+}
+.cardd img{
+  
+  min-width:250px;
+  max-width: 250px;
+  min-height: 280px;
+  max-height: 280px;
+  border-radius: 20px 20px 0 0;
+}
+.cardd div{
+  text-align: center;
+}
+

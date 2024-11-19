@@ -1,0 +1,142 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Main container */
+.about-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header styling */
+.about-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 70px;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about-banner {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+/* Section styling */
+.about-content h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 1.5rem 0;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials styling */
+.about-testimonials {
+  margin-top: 2rem;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+  font-style: italic;
+  color: #666;
+  border-left: 4px solid #007bff;
+  padding-left: 1rem;
+}
+
+/* Footer styling */
+.about-footer {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.about-footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.about-footer a:hover {
+  color: #0056b3;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.social-links li {
+  margin: 0 1rem;
+}
+
+.social-links a {
+  font-size: 1.2rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #0056b3;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 1.5rem;
+  }
+
+  .about-header h1 {
+    font-size: 2rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+  }
+}
